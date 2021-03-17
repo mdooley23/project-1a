@@ -15,24 +15,22 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video{
-	margin: 0;
+time, mark, audio, video
+{
+	margin: 2em;
 	padding: 0;
 	border: 0;
-	background-color: #3a3b3c;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 	}
 
 	html {
-	   font-family: "monospace", sans-serif,monospace;
+	   font-family: "Monospace", sans-serif,monospace;
 	   font-size: 1.125em; /* 18px / 16px = 1.125em */
 	   line-height: 1.44em; /* 26px / 18px (144%) = 1.44em */
      text-align: justify;
-		 background-color: #7E7E7E;
-		 background: auto;
-	   background-size: cover;
+		 background-size: cover;
 	   color: #FFFFFF;
 	}
 
@@ -40,23 +38,22 @@ time, mark, audio, video{
 h1{
 	display: block;
 	   text-decoration: none;
-	   background-image: linear-gradient(to bottom right, grey,silver); /*gradient background*/
-		 text-align: center;
+	   background: transparent;
+	   background-image: linear-gradient(to bottom right, orange, red, maroon); /*gradient background*/
+	   text-align: center;
 	   font-weight: 700;
-	   font-size: 5em; /* 43.945px/18px = 2.441em */
-		 line-height: 1.138em; /* 31.25px/43.945px = 1.138em*/
+	   font-size: 2.441em; /* 43.945px/18px = 2.441em */
+	   line-height: 1.138em; /* 31.25px/43.945px = 1.138em*/
 	   padding-top: 0.138em;
 	   padding-bottom: 0.138em;
 	   color: #FFFFFF;
 
 }
-
 h2{
 font-family: "monospace", sans-serif,monospace;
 text-align: center;
 font-size: 1.5em;
 line-height: 1.44em; /* 26px / 18px (144%) = 1.44em */
-margin: center;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -65,7 +62,9 @@ footer, header, hgroup, main, menu, nav, section {
 	display: block;
 }
 
-
+body {
+  line-height: inherit;
+	background-image: url("../img/foxtrees.jpg");
 }
 ol, ul {
 	list-style: none;
@@ -73,7 +72,7 @@ ol, ul {
 
 table {
 	border-collapse: collapse;
-	border-spacing: 0;
+	border-spacing: 1em;
 }
 
 
@@ -127,8 +126,8 @@ button:-moz-focusring,
 fieldset {
   border: 1px solid #c0c0c0;
 	width: 200px;
-  margin: center;
-  background-image: linear-gradient(to bottom right,silver,grey); /*gradient background*/
+  margin: auto;
+  background-image: linear-gradient(to bottom right, orange, red, maroon); /*gradient background*/
 	text-align: left;
   padding: 0.35em 0.625em 0.75em;
 		color: #FFFFFF;
@@ -183,10 +182,9 @@ A
 }
 
 p{ border: 1px solid #c0c0c0;
-  background-image: #c0c0c0;
 	width: 200px;
   margin: 0 2px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 	padding: 0.35em 0.625em 0.75em;
 	padding: 1.5625em 0.9615384615384616em 1.5625em 0.9615384615384616em; /*TRBL*/
   color: #FFFFFF;

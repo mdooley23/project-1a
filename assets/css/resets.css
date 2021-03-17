@@ -19,7 +19,7 @@ time, mark, audio, video {
   	margin: 0;
   	padding: 0;
   	border: 0;
-  	background-color: #7E7E7E;
+  	background: #696969
   	font-size: 100%;
   	font: inherit;
   	vertical-align: baseline;
@@ -51,6 +51,10 @@ table {
 	border-spacing: 0;
 }
 
+body {
+  line-height: inherit;
+	background-image: url(../img/foxtrees.jpg);
+}
 
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 
