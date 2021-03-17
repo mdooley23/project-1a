@@ -2,7 +2,7 @@ jQuery(function($) {
     $('html').removeClass('nojs');
     $('html').addClass('hasjs');
   });
-
+ 
   function allInputs() {
     var a = document.forms["form-one"]["first-name"].value;
     var b = document.forms["form-one"]["last-name"].value;
