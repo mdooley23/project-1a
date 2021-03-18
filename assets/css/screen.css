@@ -31,7 +31,9 @@ time, mark, audio, video
 	   line-height: 1.44em; /* 26px / 18px (144%) = 1.44em */
      text-align: justify;
 		 background-size: cover;
-	   background-image: url("https://cdn.dribbble.com/users/5031/screenshots/3027237/fox_dribbble.jpg?compress=1&resize=800x600");
+		 backface-visibility: visible;
+	   background-color: #173F5F;
+		 background-image: url("https://cdn.dribbble.com/users/5031/screenshots/3027237/fox_dribbble.jpg?compress=1&resize=800x600");
 	}
 
 
@@ -39,10 +41,11 @@ h1{
 	display: block;
 	   font-family: "monospace", sans-serif,monospace;
 	   text-decoration: none;
-	   background: transparent;
+     margin-top: 400px;
+		 background: transparent;
 	   background-color: #224D5D;
 	   text-align: center;
-	   font-weight: 700;
+     font-weight: 700;
 	   font-size: 2.441em; /* 43.945px/18px = 2.441em */
 	   line-height: 1.138em; /* 31.25px/43.945px = 1.138em*/
 	   padding-top: 0.138em;
@@ -56,8 +59,41 @@ text-align: center;
 font-size: 1.5em;
 line-height: 1.44em; /* 26px / 18px (144%) = 1.44em */
 color: #FFFFFF;
+background-color: #224D5D;
 }
 
+form{
+  background-size: cover;
+	backface-visibility: hidden;
+  padding-bottom: 0.138em;
+}
+flex{
+
+}
+
+blockquote{
+	   font-family: "monospace", sans-serif,monospace;
+	   text-decoration: none;
+     background: transparent;
+	   background-color: #224D5D;
+     text-align: center;
+		 width: 100%;
+     height: 100px;
+		 padding-top: 100%;
+	   font-weight: bolder;
+	   font-size: 2.441em; /* 43.945px/18px = 2.441em */
+	   line-height: 1.138em; /* 31.25px/43.945px = 1.138em*/
+	   color: #FFFFFF;
+}
+blockquote{
+	width: 100%;
+	height: 75px;
+	text-align: center;
+	z-index: 10;
+	margin-top:300px;
+	position: relative;
+	clear: both;
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, main, menu, nav, section {
@@ -126,13 +162,14 @@ button:-moz-focusring,
 }
 
 fieldset {
-  border: 1px solid #c0c0c0;
+  border: 3px solid # ;
 	width: 200px;
   margin: auto;
-  background-image: linear-gradient(to bottom right, orange, red, maroon); /*gradient background*/
+  background-color: #162936;
 	text-align: left;
   padding: 0.35em 0.625em 0.75em;
-		color: #FFFFFF;
+	color: #FFFFFF;
+	background-size: cover;
 }
 
 legend {
@@ -194,10 +231,11 @@ p{ border: 1px solid #c0c0c0;
 
 #footer{
     width: 100%;
-    height: 200px;
+    height: 75px;
     background-color: #000000;
-    z-index: 10;
-    margin-top: 1000px;
+    text-align: center;
+		z-index: 10;
+    margin-top:300px;
     position: relative;
     clear: both;
-}
+	}
