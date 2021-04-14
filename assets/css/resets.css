@@ -13,7 +13,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
+figure, figcaption, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   	margin: 0;
@@ -25,9 +25,17 @@ time, mark, audio, video {
   	vertical-align: baseline;
 	}
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, main, menu, nav, section {
+article, aside, details, figcaption, figure, header, hgroup, main, menu, nav, section {
 	display: block;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #5B9EDB;
+  color: white;
+  text-align: center;
 }
 html {
 	line-height: 2;
@@ -39,7 +47,7 @@ ol, ul {
 	list-style: none;
 }
 blockquote, q {
-	quotes: none;
+	quotes: 1;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -53,7 +61,7 @@ table {
 
 body {
   line-height: inherit;
-	background-image: url(../img/foxtrees.jpg);
+	/*background-image: url(../img/foxtrees.jpg);*/
 }
 
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */

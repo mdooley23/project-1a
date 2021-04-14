@@ -13,7 +13,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
+figure, figcaption, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video
 {
@@ -33,7 +33,8 @@ time, mark, audio, video
 		 background-size: cover;
 		 backface-visibility: visible;
 	   background-color: #173F5F;
-		 background-image: url("https://cdn.dribbble.com/users/5031/screenshots/3027237/fox_dribbble.jpg?compress=1&resize=800x600");
+		 background-image: url("../img/foxtrees.jpg");
+		 background-repeat: no-repeat;
 	}
 
 
@@ -43,7 +44,7 @@ h1{
 	   text-decoration: none;
      margin-top: 400px;
 		 background: transparent;
-	   background-color: #224D5D;
+	   background-color: #5B9EDB;
 	   text-align: center;
      font-weight: 700;
 	   font-size: 2.441em; /* 43.945px/18px = 2.441em */
@@ -51,6 +52,7 @@ h1{
 	   padding-top: 0.138em;
 	   padding-bottom: 0.138em;
 	   color: #FFFFFF;
+		 text-shadow: 2px 2px 4px #601700;
 
 }
 h2{
@@ -58,8 +60,9 @@ font-family: "monospace", sans-serif,monospace;
 text-align: center;
 font-size: 1.5em;
 line-height: 1.44em; /* 26px / 18px (144%) = 1.44em */
-color: #FFFFFF;
-background-color: #224D5D;
+color: gold;
+text-shadow: 2px 2px 4px #601700;
+background-color: #;
 }
 
 form{
@@ -75,7 +78,7 @@ blockquote{
 	   font-family: "monospace", sans-serif,monospace;
 	   text-decoration: none;
      background: transparent;
-	   background-color: #224D5D;
+	   background-color: #5B9EDB;
      text-align: center;
 		 width: 100%;
      height: 100px;
@@ -83,26 +86,30 @@ blockquote{
 	   font-weight: bolder;
 	   font-size: 2.441em; /* 43.945px/18px = 2.441em */
 	   line-height: 1.138em; /* 31.25px/43.945px = 1.138em*/
-	   color: #FFFFFF;
+	   color: white;
+		 opacity: .9;
 }
 blockquote{
-	width: 100%;
+	width: auto;
+	max-width: 50%
 	height: 75px;
+	align: center;
 	text-align: center;
-	z-index: 10;
+	z-index: 20;
+	margin: 0 auto;
 	margin-top:300px;
 	position: relative;
 	clear: both;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
-footer, header, hgroup, main, menu, nav, section {
+ header, hgroup, main, menu, nav, section {
 	display: block;
 }
 
 body {
   line-height: inherit;
-	background-image: url("../img/foxtrees.jpg");
+	/*background-image: url("../img/foxtrees.jpg");*/
 }
 ol, ul {
 	list-style: none;
@@ -110,7 +117,7 @@ ol, ul {
 
 table {
 	border-collapse: collapse;
-	border-spacing: 1em;
+	border-spacing: 3em;
 }
 
 
@@ -165,7 +172,7 @@ fieldset {
   border: 3px solid # ;
 	width: 200px;
   margin: auto;
-  background-color: #162936;
+	background-color: #5B9EDB;
 	text-align: left;
   padding: 0.35em 0.625em 0.75em;
 	color: #FFFFFF;
@@ -228,14 +235,12 @@ p{ border: 1px solid #c0c0c0;
 	padding: 1.5625em 0.9615384615384616em 1.5625em 0.9615384615384616em; /*TRBL*/
   color: #FFFFFF;
 }
-
-#footer{
-    width: 100%;
-    height: 75px;
-    background-color: #000000;
-    text-align: center;
-		z-index: 10;
-    margin-top:300px;
-    position: relative;
-    clear: both;
-	}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-image: url("https://i2.wp.com/sitn.hms.harvard.edu/wp-content/uploads/2019/09/image1.jpg?w=1432&ssl=1");
+  color: white;
+  text-align: center;
+}
