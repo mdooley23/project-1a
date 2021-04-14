@@ -62,7 +62,7 @@ font-size: 1.5em;
 line-height: 1.44em; /* 26px / 18px (144%) = 1.44em */
 color: gold;
 text-shadow: 2px 2px 4px #601700;
-background-color: #;
+
 }
 
 form{
@@ -91,13 +91,12 @@ blockquote{
 }
 blockquote{
 	width: auto;
-	max-width: 50%
-	height: 75px;
-	align: center;
+	max-width: 100%;
+	height: 95px;
 	text-align: center;
 	z-index: 20;
 	margin: 0 auto;
-	margin-top:300px;
+	margin-top: 300px;
 	position: relative;
 	clear: both;
 }
@@ -169,7 +168,7 @@ button:-moz-focusring,
 }
 
 fieldset {
-  border: 3px solid # ;
+  border: 3px solid;
 	width: 200px;
   margin: auto;
 	background-color: #5B9EDB;
@@ -180,7 +179,6 @@ fieldset {
 }
 
 legend {
-  box-sizing: border-box; /* 1 */
   color: inherit; /* 2 */
   display: table; /* 1 */
   max-width: 100%; /* 1 */
