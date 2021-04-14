@@ -7,13 +7,14 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="assets/css/screen.css"/>
     <link rel="stylesheet" href="assets/css/resets.css"/>
+    <script src="java/site.js" async></script>
 
   </head>
   <body id="content">
    <main>
     <h1>Complete this form to enter into our exclusive VP Organization</h1>
     <h2>Join Now If You Dare...</h2>
-    <form method="get" autocomplete="on" action="#null">
+    <form method="get" autocomplete="off" action="#null">
       <fieldset>
         <div id="wrap">
         <ul class="data">
@@ -34,7 +35,7 @@
               <input id="birthday" type="text" name="birthday">
             </li>
             <li id="submit_button">
-              <input type="submit" value="Submit Here">
+              <button onclick="allInputs()">Submit</button>
               <input type="reset" value="Clear">
             </li>
           </ul>
@@ -44,14 +45,15 @@
   </main>
 
   <blockquote> "It is the unknown that excites the ardor of scholars,
-     who, in the known alone, would shrivel up with boredom." </h3>
+     who, in the known alone, would shrivel up with boredom."
      <ul class="data">
        <li>
          - Wallace Stevens
-       </ul>
-     </li>
-  <footer id="footer">
-      <p>Site © Maryrose Dooley. All Rights Reserved.</p>
-    </footer>
-  </body>
+       </li>
+     </ul>
+   </blockquote>
+   </body>
+  <footer class="footer">
+      <p class = "footer">Site © Maryrose Dooley. All Rights Reserved.</p>
+  </footer>
 </html>
